@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+voice_response.json
+voice_response.json.bak
+
+# Local Database
+backend/krishimitra.db
+backend/krishimitra.db-journal
+
+# Environment variables & secrets
+backend/.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+frontend/build/
